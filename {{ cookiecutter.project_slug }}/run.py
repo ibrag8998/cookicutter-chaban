@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 
 from chaban.core.runner import runner

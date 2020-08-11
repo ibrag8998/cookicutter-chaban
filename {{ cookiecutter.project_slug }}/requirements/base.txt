@@ -1,2 +1,2 @@
-chaban==0.0.2.1
+chaban
 environs==8.0.0

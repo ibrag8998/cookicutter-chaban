@@ -1,6 +1,6 @@
 # Your custom ignores
 
-
+{{ cookiecutter.venv_path }}{% if not cookiecutter.venv_path.endswith('/') %}/{% endif %}
 
 # Default python template
 # https://github.com/github/gitignore/blob/master/Python.gitignore

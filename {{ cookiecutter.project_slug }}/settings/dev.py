@@ -1,3 +1,3 @@
 from .base import env
 
-ADMIN_ID = env.int("ADMIN_ID")
+ADMIN_ID = env.int("ADMIN_ID", 0)

@@ -12,19 +12,17 @@
 2. Install dependencies
 
     ```shell
-    pip install -r requirements/local.txt
+    ./scripts/installdeps.sh local
     ```
 
 3. Build .env file
 
     ```shell
-    cd scripts
-    ./mkenv.sh
+    ./scripts/mkenv.sh
     ```
 
 4. Run the project
 
     ```shell
-    cd ..
     ./run.py
     ```
